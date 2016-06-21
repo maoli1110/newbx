@@ -118,9 +118,11 @@ angular.module('home').controller('allCtrl', ['$scope', 'Home', '$http','All','$
 			}
 
 			_.last(row).fieldval = 0;
+			_.last($scope.resultList[0]).fieldval = 0;
 			// horizontal total calculate
 			for (var i = 2; i < row.length - 1; i++) {
 				_.last(row).fieldval += parseFloat(row[i].fieldval);
+				_.last($scope.resultList[0]).fieldval += parseFloat($scope.resultList[0][i].fieldval);
 			}
 		};
 
