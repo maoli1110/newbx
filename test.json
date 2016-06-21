@@ -1,0 +1,246 @@
+[
+	[
+		{"class":"in", "cancalculate":0, "canedit":0, "fieldval":"","fieldxyid":"0","isnull":0,"pidx":0,"styley":"","level":0},
+		{"class":"in", "cancalculate":0, "canedit":0, "fieldval":"一、总投资来源合计","fieldxyid":"1","isnull":0,"pidx":0,"styley":"bold","level":0},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"0_2015","isnull":0,"pidx":0,"styley":"","level":0},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"0_2016","isnull":0,"pidx":0,"styley":"","level":0},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"0_2017","isnull":0,"pidx":0,"styley":"","level":0},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"0_2018","isnull":0,"pidx":0,"styley":"","level":0},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"0_2019","isnull":0,"pidx":0,"styley":"","level":0},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"0_2020","isnull":0,"pidx":0,"styley":"","level":0},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"all","isnull":0,"pidx":0,"styley":"","level":0}
+	],
+	[
+		{"class":"in", "cancalculate":0, "canedit":0, "fieldval":"1","fieldxyid":1,"isnull":0,"pidx":0,"styley":"","level":1},
+		{"class":"in", "cancalculate":0, "canedit":0, "fieldval":"银行贷款","fieldxyid":1,"isnull":0,"pidx":0,"styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"1_2015","isnull":0,"pidx":"0_2015","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"1_2016","isnull":0,"pidx":"0_2016","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"1_2017","isnull":0,"pidx":"0_2017","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"1_2018","isnull":0,"pidx":"0_2018","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"1_2019","isnull":0,"pidx":"0_2019","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"1_2020","isnull":0,"pidx":"0_2020","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"all","isnull":0,"pidx":"","styley":"","level":1}
+	],
+	[
+		{"class":"in", "cancalculate":0, "canedit":0, "fieldval":"","fieldxyid":2,"isnull":0,"pidx":1,"styley":"","jump":true},
+		{"indient":"indient","class":"in", "cancalculate":0, "canedit":0, "fieldval":"其中:我行贷款","fieldxyid":1,"isnull":0,"pidx":0,"styley":"","jump":true},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"2_2015","isnull":0,"pidx":"1_2015","styley":"","jump":true},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"2_2016","isnull":0,"pidx":"1_2016","styley":"","jump":true},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"2_2017","isnull":0,"pidx":"1_2017","styley":"","jump":true},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"2_2018","isnull":0,"pidx":"1_2018","styley":"","jump":true},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"2_2019","isnull":0,"pidx":"1_2019","styley":"","jump":true},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"2_2020","isnull":0,"pidx":"1_2020","styley":"","jump":true},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"all","isnull":0,"pidx":0,"styley":"","jump":true}
+	],
+	[
+		{"class":"in", "cancalculate":0, "canedit":0, "fieldval":"2","fieldxyid":2,"isnull":0,"pidx":0,"styley":"","level":1},
+		{"class":"in", "cancalculate":0, "canedit":0, "fieldval":"企业自筹","fieldxyid":1,"isnull":0,"pidx":"0","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"3_2015","isnull":0,"pidx":"0_2015","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"3_2016","isnull":0,"pidx":"0_2016","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"3_2017","isnull":0,"pidx":"0_2017","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"3_2018","isnull":0,"pidx":"0_2018","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"3_2019","isnull":0,"pidx":"0_2019","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"3_2020","isnull":0,"pidx":"0_2020","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"all","isnull":0,"pidx":0,"styley":"","level":1}
+	],
+	[
+		{"class":"in", "cancalculate":0, "canedit":0, "fieldval":"","fieldxyid":2,"isnull":0,"pidx":0,"styley":"","level":2},
+		{"indient":"indient","class":"in", "cancalculate":0, "canedit":0, "fieldval":"其中：自有资金","fieldxyid":1,"isnull":0,"pidx":0,"styley":"","level":2},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"4_2015","isnull":0,"pidx":"3_2015","styley":"","level":2},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"4_2016","isnull":0,"pidx":"3_2016","styley":"","level":2},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"4_2017","isnull":0,"pidx":"3_2017","styley":"","level":2},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"4_2018","isnull":0,"pidx":"3_2018","styley":"","level":2},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"4_2019","isnull":0,"pidx":"3_2019","styley":"","level":2},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"4_2020","isnull":0,"pidx":"3_2020","styley":"","level":2},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"all","isnull":0,"pidx":0,"styley":"","level":2}
+	],
+	[
+		{"class":"in", "cancalculate":0, "canedit":0, "fieldval":"","fieldxyid":2,"isnull":0,"pidx":0,"styley":"","level":2},
+		{"indient":"indient","class":"in", "cancalculate":0, "canedit":0, "fieldval":"股东长期借款","fieldxyid":1,"isnull":0,"pidx":0,"styley":"","level":2},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"5_2015","isnull":0,"pidx":"3_2015","styley":"","level":2},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"5_2016","isnull":0,"pidx":"3_2016","styley":"","level":2},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"5_2017","isnull":0,"pidx":"3_2017","styley":"","level":2},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"5_2018","isnull":0,"pidx":"3_2018","styley":"","level":2},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"5_2019","isnull":0,"pidx":"3_2019","styley":"","level":2},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"5_2020","isnull":0,"pidx":"3_2020","styley":"","level":2},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"all","isnull":0,"pidx":0,"styley":"","level":2}
+	],
+	[
+		{"class":"in", "cancalculate":0, "canedit":0, "fieldval":"3","fieldxyid":3,"isnull":0,"pidx":0,"styley":"","level":1},
+		{"class":"in", "cancalculate":0, "canedit":0, "fieldval":"预收租售收入滚动开发","fieldxyid":1,"isnull":0,"pidx":0,"styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"6_2015","isnull":0,"pidx":"0_2015","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"6_2016","isnull":0,"pidx":"0_2016","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"6_2017","isnull":0,"pidx":"0_2017","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"6_2018","isnull":0,"pidx":"0_2018","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"6_2019","isnull":0,"pidx":"0_2019","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"6_2020","isnull":0,"pidx":"0_2010","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"all","isnull":0,"pidx":0,"styley":"","level":1}
+	],
+	[
+		{"class":"in", "cancalculate":0, "canedit":0, "fieldval":"4","fieldxyid":3,"isnull":0,"pidx":0,"styley":"","level":1},
+		{"class":"in", "cancalculate":0, "canedit":0, "fieldval":"其他资金来源","fieldxyid":1,"isnull":0,"pidx":0,"styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"7_2015","isnull":0,"pidx":"0_2015","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"7_2016","isnull":0,"pidx":"0_2016","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"7_2017","isnull":0,"pidx":"0_2017","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"7_2018","isnull":0,"pidx":"0_2018","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"7_2019","isnull":0,"pidx":"0_2019","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"7_2020","isnull":0,"pidx":"0_2020","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"all","isnull":0,"pidx":0,"styley":"","level":1}
+	],
+	[
+		{"class":"out", "cancalculate":0, "canedit":0, "fieldval":"","fieldxyid":4,"isnull":0,"pidx":0,"styley":"","level":0},
+		{"class":"out", "cancalculate":0, "canedit":0, "fieldval":"二:总投资支出合计","fieldxyid":1,"isnull":0,"pidx":0,"styley":"bold","level":0},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"8_2015","isnull":0,"pidx":0,"styley":"","level":0},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"8_2016","isnull":0,"pidx":0,"styley":"","level":0},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"8_2017","isnull":0,"pidx":0,"styley":"","level":0},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"8_2018","isnull":0,"pidx":0,"styley":"","level":0},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"8_2019","isnull":0,"pidx":0,"styley":"","level":0},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"8_2020","isnull":0,"pidx":0,"styley":"","level":0},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"all","isnull":0,"pidx":0,"styley":"","level":0}
+	],
+	[
+		{"class":"out", "cancalculate":0, "canedit":0, "fieldval":"5","fieldxyid":5,"isnull":0,"pidx":0,"styley":"","level":1},
+		{"class":"out", "cancalculate":0, "canedit":0, "fieldval":"(一)土地费用","fieldxyid":1,"isnull":0,"pidx":0,"styley":"","level":1},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"9_2015","isnull":0,"pidx":"8_2015","styley":"","level":1},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"9_2016","isnull":0,"pidx":"8_2016","styley":"","level":1},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"9_2017","isnull":0,"pidx":"8_2017","styley":"","level":1},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"9_2018","isnull":0,"pidx":"8_2018","styley":"","level":1},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"9_2019","isnull":0,"pidx":"8_2019","styley":"","level":1},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"9_2020","isnull":0,"pidx":"8_2010","styley":"","level":1},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"all","isnull":0,"pidx":0,"styley":"","level":1}
+	],
+	[
+		{"class":"out", "cancalculate":0, "canedit":0, "fieldval":"","fieldxyid":6,"isnull":0,"pidx":0,"styley":"","level":2},
+		{"indient":"indient","class":"out", "cancalculate":0, "canedit":0, "fieldval":"其中：土地出让金","fieldxyid":1,"isnull":0,"pidx":0,"styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"10_2015","isnull":0,"pidx":"9_2015","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"10_2016","isnull":0,"pidx":"9_2016","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"10_2017","isnull":0,"pidx":"9_2017","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"10_2018","isnull":0,"pidx":"9_2018","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"10_2019","isnull":0,"pidx":"9_2019","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"10_2020","isnull":0,"pidx":"9_2020","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"all","isnull":0,"pidx":0,"styley":"","level":2}
+	],
+	[
+		{"class":"out", "cancalculate":0, "canedit":0, "fieldval":"","fieldxyid":6,"isnull":0,"pidx":0,"styley":"","level":2},
+		{"indient":"indient","class":"out", "cancalculate":0, "canedit":0, "fieldval":"征地费","fieldxyid":1,"isnull":0,"pidx":0,"styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"11_2015","isnull":0,"pidx":"9_2015","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"11_2016","isnull":0,"pidx":"9_2016","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"11_2017","isnull":0,"pidx":"9_2017","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"11_2018","isnull":0,"pidx":"9_2018","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"11_2019","isnull":0,"pidx":"9_2019","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"11_2020","isnull":0,"pidx":"9_2020","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"all","isnull":0,"pidx":0,"styley":"","level":2}
+	],
+	[
+		{"class":"out", "cancalculate":0, "canedit":0, "fieldval":"","fieldxyid":6,"isnull":0,"pidx":0,"styley":"","level":2},
+		{"indient":"indient","class":"out", "cancalculate":0, "canedit":0, "fieldval":"拆迁补偿费","fieldxyid":1,"isnull":0,"pidx":0,"styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"12_2015","isnull":0,"pidx":"9_2015","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"12_2016","isnull":0,"pidx":"9_2016","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"12_2017","isnull":0,"pidx":"9_2017","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"12_2018","isnull":0,"pidx":"9_2018","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"12_2019","isnull":0,"pidx":"9_2019","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"12_2020","isnull":0,"pidx":"9_2020","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"all","isnull":0,"pidx":0,"styley":"","level":2}
+	],
+	[
+		{"class":"out", "cancalculate":0, "canedit":0, "fieldval":"","fieldxyid":6,"isnull":0,"pidx":0,"styley":"","level":2},
+		{"indient":"indient","class":"out", "cancalculate":0, "canedit":0, "fieldval":"其他","fieldxyid":1,"isnull":0,"pidx":0,"styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"12_2015","isnull":0,"pidx":"9_2015","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"12_2016","isnull":0,"pidx":"9_2016","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"12_2017","isnull":0,"pidx":"9_2017","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"12_2018","isnull":0,"pidx":"9_2018","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"12_2019","isnull":0,"pidx":"9_2019","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"12_2020","isnull":0,"pidx":"9_2020","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"all","isnull":0,"pidx":0,"styley":"","level":2}
+	],
+	[
+		{"class":"out", "cancalculate":0, "canedit":0, "fieldval":"7","fieldxyid":7,"isnull":0,"pidx":0,"styley":"","level":1},
+		{"class":"out", "cancalculate":0, "canedit":0, "fieldval":"（二）前期开发费","fieldxyid":1,"isnull":0,"pidx":0,"styley":"","level":1},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"12_2015","isnull":0,"pidx":"8_2015","styley":"","level":1},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"12_2016","isnull":0,"pidx":"8_2016","styley":"","level":1},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"12_2017","isnull":0,"pidx":"8_2017","styley":"","level":1},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"12_2018","isnull":0,"pidx":"8_2018","styley":"","level":1},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"12_2019","isnull":0,"pidx":"8_2019","styley":"","level":1},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"12_2020","isnull":0,"pidx":"8_2010","styley":"","level":1},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"all","isnull":0,"pidx":0,"styley":"","level":1}
+	],
+	[
+		{"class":"out", "cancalculate":0, "canedit":0, "fieldval":"","fieldxyid":7,"isnull":0,"pidx":0,"styley":"","level":2},
+		{"indient":"indient","class":"out", "cancalculate":0, "canedit":0, "fieldval":"其中：勘测规划设计费","fieldxyid":1,"isnull":0,"pidx":0,"styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"13_2015","isnull":0,"pidx":"12_2015","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"13_2016","isnull":0,"pidx":"12_2016","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"13_2017","isnull":0,"pidx":"12_2017","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"13_2018","isnull":0,"pidx":"12_2018","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"13_2019","isnull":0,"pidx":"12_2019","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"13_2020","isnull":0,"pidx":"12_2020","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"all","isnull":0,"pidx":0,"styley":"","level":2}
+	],
+	[
+		{"class":"out", "cancalculate":0, "canedit":0, "fieldval":"","fieldxyid":7,"isnull":0,"pidx":0,"styley":"","level":2},
+		{"indient":"indient","class":"out", "cancalculate":0, "canedit":0, "fieldval":"其中：勘测规划设计费","fieldxyid":1,"isnull":0,"pidx":0,"styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"14_2015","isnull":0,"pidx":"12_2015","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"14_2016","isnull":0,"pidx":"12_2016","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"14_2017","isnull":0,"pidx":"12_2017","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"14_2018","isnull":0,"pidx":"12_2018","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"14_2019","isnull":0,"pidx":"12_2019","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"14_2020","isnull":0,"pidx":"12_2020","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"all","isnull":0,"pidx":0,"styley":"","level":2}
+	],
+	[
+		{"class":"out", "cancalculate":0, "canedit":0, "fieldval":"","fieldxyid":7,"isnull":0,"pidx":0,"styley":"","level":2},
+		{"indient":"indient","class":"out", "cancalculate":0, "canedit":0, "fieldval":"可行性研究费","fieldxyid":1,"isnull":0,"pidx":0,"styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"15_2015","isnull":0,"pidx":"12_2015","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"15_2016","isnull":0,"pidx":"12_2016","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"15_2017","isnull":0,"pidx":"12_2017","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"15_2018","isnull":0,"pidx":"12_2018","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"15_2019","isnull":0,"pidx":"12_2019","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"15_2020","isnull":0,"pidx":"12_2020","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"all","isnull":0,"pidx":0,"styley":"","level":2}
+	],
+	[
+		{"class":"out", "cancalculate":0, "canedit":0, "fieldval":"","fieldxyid":7,"isnull":0,"pidx":0,"styley":"","level":2},
+		{"indient":"indient","class":"out", "cancalculate":0, "canedit":0, "fieldval":"三通一平费","fieldxyid":1,"isnull":0,"pidx":0,"styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"16_2015","isnull":0,"pidx":"12_2015","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"16_2016","isnull":0,"pidx":"12_2016","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"16_2017","isnull":0,"pidx":"12_2017","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"16_2018","isnull":0,"pidx":"12_2018","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"16_2019","isnull":0,"pidx":"12_2019","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"16_2020","isnull":0,"pidx":"12_2020","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"all","isnull":0,"pidx":0,"styley":"","level":2}
+	],
+	[
+		{"class":"out", "cancalculate":0, "canedit":0, "fieldval":"","fieldxyid":7,"isnull":0,"pidx":0,"styley":"","level":2},
+		{"indient":"indient","class":"out", "cancalculate":0, "canedit":0, "fieldval":"人防建设费","fieldxyid":1,"isnull":0,"pidx":0,"styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"17_2015","isnull":0,"pidx":"12_2015","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"17_2016","isnull":0,"pidx":"12_2016","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"17_2017","isnull":0,"pidx":"12_2017","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"17_2018","isnull":0,"pidx":"12_2018","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"17_2019","isnull":0,"pidx":"12_2019","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"17_2020","isnull":0,"pidx":"12_2020","styley":"","level":2},
+		{"bk":"1","class":"out", "cancalculate":0, "canedit":0, "fieldval":"0","fieldxyid":"all","isnull":0,"pidx":0,"styley":"","level":2}
+	]
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+<header ng-include="'resource/template/core/header.html'"></header>
+<div class="container">
+		<div class=" sidebar" id="page-siderbar" ng-include="'resource/template/core/sidebar.html'"></div>
+		<div  id="page-content" class="maxWidth">
+			<!-- <breadcrumbs display-name="data.displayName" front-msg="当前页面"></breadcrumbs> -->
+			<div class="content-main" ui-view></div>
+		</div>
+</div>
+<footer ng-include="'resource/template/core/footer.html'"></footer>

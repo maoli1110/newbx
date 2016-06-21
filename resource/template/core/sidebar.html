@@ -1,0 +1,50 @@
+<div class="sidebar-toggler">
+ 	<span></span>
+ 	<span></span>
+ 	<span></span>
+ 	<span></span>
+ </div>
+<div class="sidermenu" sider-directive="" ng-controller="coreCtrl">
+<ul class="nav pull-right" id="siderbar">
+	<li data-url = "part">
+	    <i class="step active">1</i>
+		<a ui-sref=".part">
+		  <span>分部分项造价指标</span>
+		</a>
+	</li>
+
+	<li data-url = "all">
+	<i class="step">2</i>
+		<a ui-sref=".all">总投资来源支出预测</a>
+	</li>
+
+	<li data-url = "all1">
+	<i class="step">3</i>
+		<a ui-sref="home">收入预测</a>
+	</li>
+
+	<li>
+	<i class="step">4</i>
+		<a ui-sref="home">项目贷款偿还</a>
+	</li>
+	<li ng-class="{'active':home}">
+	<i class="step">5</i>
+		<a ui-sref=".part">项目现金流量</a>
+	</li>
+
+	<li>
+	<i class="step">6</i>
+		<a ui-sref=".all">项目贷款偿还</a>
+	</li>
+
+	<li>
+	<i class="step">7</i>
+		<a ui-sref="home">敏感性分析</a>
+	</li>
+
+	<li>
+	<i class="step">8</i>
+		<a ui-sref="home">评估主要结论</a>
+	</li>
+</ul>
+</div>

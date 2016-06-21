@@ -1,0 +1,81 @@
+<style type="text/css">
+	.tree{
+		border: 1px solid #ccc;
+		height: 800px;
+		margin-right: 10px;
+		overflow-y: auto;
+	}
+	.proList{
+		border: 1px solid #ccc;
+		height: 900px;
+	}
+	.mt-20{
+		margin-top: 20px;
+	}
+	.title div{
+		font-size: 16px;
+	}
+	.rightBtn{
+	    position: fixed;
+	    right: 20px;
+	    top: 360px;
+	}
+	.rightBtn ul>li {
+	    margin: 0;
+	    padding: 0;
+	    height: 72px;
+	    margin-bottom: 4px;
+	    list-style-type:none;
+	}
+	.rightBtn .li1>a {
+	    display: inline-block;
+	    width: 72px;
+	    height: 72px;
+	    margin-bottom: 3px;
+	    background: url(resource/img/tree_icon1.png)no-repeat;
+	    background-color: #9de38d;
+	}
+	.rightBtn .li2>a {
+	    display: inline-block;
+	    width: 72px;
+	    height: 72px;
+	    margin-bottom: 3px;
+	    background: url(resource/img/tree_icon2.png)no-repeat;
+	    background-color: #9de38d;
+	}
+	.proList div {
+		height:30px;
+		line-height:30px;
+		background: #ccc;
+		margin-top: 10px;
+	}
+</style>
+<header ng-include="'resource/template/core/header.html'"></header>
+<div><img src="resource/img/banner.png" alt=""></div>
+<div class="container mt-20">
+	<div class="row title">
+		<div class="col-md-3">
+		<div><span class="glyphicon glyphicon-chevron-right"></span>工程列表</div>		
+		</div>
+		<div class="col-md-8"><span class="glyphicon glyphicon-chevron-right"></span>方案列表</div>
+	</div>
+	<div class="row">
+	  <div class="col-md-3 tree">
+	  		<ul id="tagtree" class="ztree" style="padding-left:5px;"></ul>
+	  </div>
+	  <div class="col-md-8 proList">
+	  	<div><input type="checkbox"><span>11111</span></div>
+	  	<div><input type="checkbox"><span>11111</span></div>
+	  </div>
+	</div>
+	
+</div>
+<footer ng-include="'resource/template/core/footer.html'"></footer>
+<!-- 图表分析 -->
+  <div class="rightBtn">
+  	<ul>
+  		<li class="li1"><a ui-sref="home.part"></a></li>
+  		<li class="li2"><a></a></li>
+  	</ul>
+  </div>
+<!-- 图表分析end -->
