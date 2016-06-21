@@ -57,12 +57,17 @@
 	    background-color: #9de38d;
 	}
 	.proList div {
-		height:30px;
-		line-height:30px;
-		background: #ccc;
+		height:40px;
+		line-height:40px;
 		margin-top: 10px;
+		padding: 0 10px;
 	}
-
+	.noSelected{
+		background: #ebebeb;
+	}
+	.selected{
+		background: green;
+	}
 </style>
 <header ng-include="'resource/template/core/header.html'"></header>
 <div class="banner"><img src="resource/img/banner.png" alt=""></div>
@@ -78,7 +83,7 @@
 	  		<ul id="tagtree" class="ztree" style="padding-left:5px;"></ul>
 	  </div>
 	  <div class="col-md-8 proList">
-	  	<div><input type="checkbox"><span>11111</span></div>
+	  	<div ng-class="{true: 'selected', false: 'noSelected'}[isSelected]"><input type="checkbox" ng-click="isSelected = !isSelected"><span>11111</span></div>
 	  	<div><input type="checkbox"><span>11111</span></div>
 	  </div>
 	</div>

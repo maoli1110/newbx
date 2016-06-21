@@ -4,6 +4,7 @@
  */
 angular.module('core').controller('treeCtrl', ['$rootScope','$scope', '$http','loginService','$state','Tree',
     function ($rootScope,$scope, $http,loginService,$state,Tree) {
+        $scope.isSelected = false;
 	 	var setting = {  
              data :{  
                  simpleData:{  
