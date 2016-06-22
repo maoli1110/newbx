@@ -5,9 +5,9 @@
  * reset/add/delete vertical line
  * 以当前最低粒度为编辑项
  */
-angular.module('home').controller('homeCtrl', ['$scope', 'Home', '$http', '$filter',
-  function($scope, Home, $http, $filter) {
-
+angular.module('home').controller('homeCtrl', ['$rootScope','$scope', 'Home', '$http', '$filter',
+  function($rootScope,$scope, Home, $http, $filter) {
+	$rootScope.username = sessionStorage.username || "";
     var originalData = {
       resultList: [],
       year: {},

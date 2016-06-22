@@ -1,0 +1,65 @@
+<style type="text/css">
+	input{
+		width: 100%;
+		height: 27px;
+		line-height: 27px;
+		display: block;
+	}
+	table {
+	    table-layout: fixed;
+	    word-wrap: break-word;
+	}
+	.grey{
+		background: #EBEBEB;
+	}
+	.table-title{
+		margin-top: 20px;
+		font-size: 20px;
+		text-align: center;
+	}
+	.table td {
+		padding: 0px;
+	}
+	.table span {
+		width: 100%;
+		height: 100%;
+		display:block;
+	}
+	.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+		padding: 0px;
+		line-height: 2.4;
+		vertical-align: top;
+		border-top: 1px solid #ddd;
+	}
+	.bold{
+		font-weight: bold;
+	}
+	.indient{
+		text-indent: 2em;
+	}
+	
+</style>
+<div class="table-title">分部分项造价指标表</div>
+<hr/>
+<div class="table-reponsive">
+	<table class="table table-bordered">
+		<!-- <caption>基本的表格布局</caption> -->
+		<tbody>
+			<tr ng-repeat="row in incomeList">
+				<td ng-repeat="cell in row track by $index">
+					{{cell}}
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<!-- 图表分析 -->
+  <div class="chart">
+  	<ul>
+  		<li><a href="" title="预览"></a></li>
+  		<li><a href="" title="保存"></a></li>
+  		<li><a href="" title="对比"></a></li>
+  		<li><a ui-sref="tree" title="返回首页"></a></li>
+  	</ul>
+  </div>
+<!-- 图表分析end -->

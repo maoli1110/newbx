@@ -59,7 +59,10 @@ website:	http://code.google.com/p/jquerytree/
 	background-color: transparent;
 	text-decoration: none;
 	vertical-align: top;
-	display: inline-block
+	display: inline-block;
+	width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .ztree li a:hover {

@@ -16,7 +16,7 @@ angular.module('core').config(['$stateProvider', '$urlRouterProvider',
 		.state('home.part', {
 			'url':"/part",
 			templateUrl: 'resource/template/home/part.html',
-			controller: 'homeCtrl',
+			controller: 'partCtrl',
 			data: {
 				displayName: 'part'
 			}
@@ -27,6 +27,14 @@ angular.module('core').config(['$stateProvider', '$urlRouterProvider',
 			controller: 'allCtrl',
 			data: {
 				displayName: 'all'
+			}
+		})
+		.state('home.income', {
+			'url':"/income",
+			templateUrl: 'resource/template/home/income.html',
+			controller: 'incomeCtrl',
+			data: {
+				displayName: 'income'
 			}
 		});
 	}

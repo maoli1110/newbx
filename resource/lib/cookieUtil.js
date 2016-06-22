@@ -2,16 +2,11 @@
     var cookieUtil = {
     	//设置cookie
         setCookie : function(cookieName,cookieValue,expire){
-            debugger;
-            if(Object.prototype.toString.call(expire) === '[object Number]' || !isNaN(parseInt(expire))){
-                expire = parseInt(expire);
-                var time = new Date();
-                time.setTime(time.getTime()+expire*1000*60);  //有效期单位为多少分钟
-                expire = time;
-            }
-            console.log(expire+':'+expire.toGMTString());
+            var time = new Date();
+            time.setTime(time.getTime()+expire*1000*60);  //有效期单位为多少分钟
+            expire = time;
             document.cookie = cookieName + '=' + escape(cookieValue)
-                              + isNaN(expire)? '' : ';expires = '+expire.toGMTString(); 
+                              +';expires='+expire.toGMTString(); 
         },
 
         //获取cookie

@@ -49,7 +49,7 @@ angular.module('home').directive('siderDirective', function() {
 				$(element).popover({
 					"placement":"bottom",
 					"html":true,
- 					 "template" : '<div class="popover" role="tooltip"><div class="arrow"></div><img src="img/weixin.png" class="popover-content" style="width:152px;height:152px;display:block;"/></div>',
+ 					 "template" : '<div class="popover" role="tooltip"><div class="arrow"></div><img src="resource/img/weixin.png" class="popover-content" style="width:152px;height:152px;display:block;"/></div>',
  					 "trigger":"hover"
 				});
 			}
