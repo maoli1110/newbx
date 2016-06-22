@@ -46,8 +46,8 @@
 		<!-- <caption>基本的表格布局</caption> -->
 		<tbody>
 			<tr ng-repeat="row in incomeList">
-				<td ng-repeat="cell in row track by $index">
-					{{cell}}
+				<td name="{{$index + '-' +row.yn}}" ng-repeat="cell in row.cellXValues track by $index">
+					{{cell.xyvalue}}
 				</td>
 			</tr>
 		</tbody>

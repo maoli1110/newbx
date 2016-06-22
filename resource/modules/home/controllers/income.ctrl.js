@@ -7,10 +7,10 @@ angular.module('home').controller('incomeCtrl', ['$scope', 'Home', '$http','All'
 
 		$scope.incomeList = [];
 
-		$http.post('new.json').success(function (data) {
+		$http.get('new.json').success(function (data) {
 			console.log(data);
 			
-			$scope.incomeList = data.data.cellValues;
+			$scope.incomeList = data.data.cellYValues;
 			console.log($scope.incomeList);
 		});
 
