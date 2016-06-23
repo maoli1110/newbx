@@ -9,38 +9,74 @@ angular.module('home').controller('incomeCtrl', ['$scope', 'Home', '$http','All'
 
 
 	    $scope.resultList = [];
+
 	    $scope.cycle = {
-	      list: [1, 2, 3, 4, 5],
+	      list: [1, 2, 3, 4, 5,6,7,8,9,10],
 	      value: 5
 	    }
 	    $scope.year = {
-	      list: [2012, 2013, 2014, 2015, 2016],
-	      init: 2012
+	      list: [2015, 2016, 2017, 2018, 2019],
+	      init: 2015
 	    };
 
 	    $scope.$watch('cycle.value', function(val) {
 	      $scope.cycleCount = new Array(val);
+			console.log($scope.dif);
+			if ($scope.incomeList.length) {
+				var arr = [];
+				for (var i = 0; i < $scope.cycle.value - ($scope.incomeList[0].cellXValues.length - 3); i++) {
+					arr.push({
+						xn: $scope.incomeList[0].cellXValues.length + i,
+						xyvalue: 0
+					});
+				}
+				console.log(arr);
+				_.forEach($scope.incomeList,function (r) {
+					console.log(r);
+					r.cellXValues = r.cellXValues.concat(arr);
+				})
+			}
 	    });
 
 		$http.get('new.json').success(function (data) {
-			console.log(data);
-			
+			//console.log(data);
+			data.data.cellYValues.shift();
 			$scope.incomeList = data.data.cellYValues;
-			console.log($scope.incomeList);
 		});
+		
+
+		console.log($scope.diff);
 
 		$scope.changeDate = function(row, cell,index) {
 
-			//console.log(row);
-			//console.log($scope.incomeList);
-			var verticalId = index;
-			var topList = _.filter($scope.incomeList, function(r){
-				console.log(row);
-				debugger;
-				return r.cellXValues.xn == verticalId;
+			var verticalId = index,
+				verticalLine = [],
+				topTotal = 0;
+			//取第一行的值
+			var top0 = _.filter($scope.incomeList, function(r) {
+				return r.yn === 1;
+			})[0];
+			//关联的值
+			var top0List = _.filter($scope.incomeList, function(r) {
+				return r.yn === 2 || r.yn ===4 || r.yn ===7 || r.yn === 8;
 			})
-			console.log(topList);
 
+			console.log(top0);
+
+			 _.forEach(top0List, function (r) {
+				var unit = _.filter(r.cellXValues, function (v, i) {
+					return parseInt(v.xn) === verticalId;
+				})[0];
+				verticalLine.push(unit);
+			})
+
+			for(var i=0; i<verticalLine.length; i++) {
+				//loop & calculate
+				topTotal += parseFloat(verticalLine[i].xyvalue);
+			}
+			//赋值
+			top0.cellXValues[verticalId].xyvalue = topTotal;
+			
 			cell.xyvalue = parseFloat(cell.xyvalue);
 
 			//水平求和horizontal total calculate

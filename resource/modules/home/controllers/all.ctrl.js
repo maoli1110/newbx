@@ -75,8 +75,10 @@ angular.module('home').controller('allCtrl', ['$scope', 'Home', '$http','All','$
 				topTotal = 0,
 				firstTotal = 0;
 			var topList = _.filter($scope.resultList, function (row) {
+				console.log(row[0]);
 				return row[0].level === 0 && row[0].class === className;
 			})[0];
+			//console.log(topList);
 			var top = _.filter(topList, function (f) {
 				return f.level === 0 && f.fieldxyid.toString().indexOf(verticalId) !== -1
 			})[0];

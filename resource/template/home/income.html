@@ -41,6 +41,9 @@
 </style>
 <div class="table-title">分部分项造价指标表</div>
 <hr/>
+
+<select ng-options="i for i in cycle.list" ng-model="cycle.value"></select>
+
 <div class="table-reponsive">
 	<table class="table table-bordered">
 		<!-- <caption>基本的表格布局</caption> -->
