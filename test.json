@@ -13,8 +13,8 @@
 	[
 		{"class":"in", "cancalculate":0, "canedit":0, "fieldval":"1","fieldxyid":1,"isnull":0,"pidx":0,"styley":"","level":1},
 		{"class":"in", "cancalculate":0, "canedit":0, "fieldval":"银行贷款","fieldxyid":1,"isnull":0,"pidx":0,"styley":"","level":1},
-		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"1_2015","isnull":0,"pidx":"0_2015","styley":"","level":1},
-		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"1_2016","isnull":0,"pidx":"0_2016","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"2","fieldxyid":"1_2015","isnull":0,"pidx":"0_2015","styley":"","level":1},
+		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"3","fieldxyid":"1_2016","isnull":0,"pidx":"0_2016","styley":"","level":1},
 		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"1_2017","isnull":0,"pidx":"0_2017","styley":"","level":1},
 		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"1_2018","isnull":0,"pidx":"0_2018","styley":"","level":1},
 		{"bk":"1","class":"in", "cancalculate":0, "canedit":1, "fieldval":"0","fieldxyid":"1_2019","isnull":0,"pidx":"0_2019","styley":"","level":1},

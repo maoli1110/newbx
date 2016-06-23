@@ -10,38 +10,76 @@
                 "cellXValues": [
                     {
                         "xn": 0,
-                        "xyvalue": "test"
+                        "xyvalue": "",
+                        "canedit": ""
                     },
                     {
                         "xn": 1,
-                        "xyvalue": ""
+                        "xyvalue": "总投资来源合计"
                     },
                     {
                         "xn": 2,
-                        "xyvalue": "2015"
+                        "xyvalue": 0
                     },
                     {
                         "xn": 3,
-                        "xyvalue": "2016"
+                        "xyvalue": 0
                     },
                     {
                         "xn": 4,
-                        "xyvalue": "2017"
+                        "xyvalue": 0
                     },
                     {
                         "xn": 5,
-                        "xyvalue": "2018"
+                        "xyvalue": 0
                     },
                     {
                         "xn": 6,
-                        "xyvalue": "2019"
+                        "xyvalue": 0
                     },
                     {
                         "xn": 7,
-                        "xyvalue": "???è??"
+                        "xyvalue": 0
                     }
                 ],
                 "yn": 0
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": "1"
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "银行贷款"
+                    },
+                    {
+                        "xn": 2,
+                        "xyvalue": 1
+                    },
+                    {
+                        "xn": 3,
+                        "xyvalue": 2
+                    },
+                    {
+                        "xn": 4,
+                        "xyvalue": 3
+                    },
+                    {
+                        "xn": 5,
+                        "xyvalue": 0
+                    },
+                    {
+                        "xn": 6,
+                        "xyvalue": 0
+                    },
+                    {
+                        "xn": 7,
+                        "xyvalue": 0
+                    }
+                ],
+                "yn": 1
             },
             {
                 "cellXValues": [
@@ -51,34 +89,145 @@
                     },
                     {
                         "xn": 1,
-                        "xyvalue": "123"
+                        "xyvalue": "其中我行贷款"
                     },
                     {
                         "xn": 2,
-                        "xyvalue": "0"
+                        "xyvalue": 0
                     },
                     {
                         "xn": 3,
-                        "xyvalue": "0"
+                        "xyvalue": 0
                     },
                     {
                         "xn": 4,
-                        "xyvalue": "0"
+                        "xyvalue": 0
                     },
                     {
                         "xn": 5,
-                        "xyvalue": "0"
+                        "xyvalue": 0
                     },
                     {
                         "xn": 6,
-                        "xyvalue": "0"
+                        "xyvalue": 0
                     },
                     {
                         "xn": 7,
-                        "xyvalue": "0"
+                        "xyvalue": 0
                     }
                 ],
-                "yn": 1
+                "yn": 2
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": "2"
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "企业自筹"
+                    },
+                    {
+                        "xn": 2,
+                        "xyvalue": 0
+                    },
+                    {
+                        "xn": 3,
+                        "xyvalue": 0
+                    },
+                    {
+                        "xn": 4,
+                        "xyvalue": 0
+                    },
+                    {
+                        "xn": 5,
+                        "xyvalue": 0
+                    },
+                    {
+                        "xn": 6,
+                        "xyvalue": 0
+                    },
+                    {
+                        "xn": 7,
+                        "xyvalue": 0
+                    }
+                ],
+                "yn": 3
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": ""
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "其中：自有资金"
+                    },
+                    {
+                        "xn": 2,
+                        "xyvalue": 0
+                    },
+                    {
+                        "xn": 3,
+                        "xyvalue": 0
+                    },
+                    {
+                        "xn": 4,
+                        "xyvalue": 0
+                    },
+                    {
+                        "xn": 5,
+                        "xyvalue": 0
+                    },
+                    {
+                        "xn": 6,
+                        "xyvalue": 0
+                    },
+                    {
+                        "xn": 7,
+                        "xyvalue": 0
+                    }
+                ],
+                "yn": 4
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": ""
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "股东长期借款"
+                    },
+                    {
+                        "xn": 2,
+                        "xyvalue": 0
+                    },
+                    {
+                        "xn": 3,
+                        "xyvalue": 0
+                    },
+                    {
+                        "xn": 4,
+                        "xyvalue": 0
+                    },
+                    {
+                        "xn": 5,
+                        "xyvalue": 0
+                    },
+                    {
+                        "xn": 6,
+                        "xyvalue": 0
+                    },
+                    {
+                        "xn": 7,
+                        "xyvalue": 0
+                    }
+                ],
+                "yn": 5
             }
         ],
         "createuser": "",

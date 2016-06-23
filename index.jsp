@@ -30,8 +30,6 @@
 			type: "post",
 		    url: contextPath+"/scheme.do?method=addSchemes",
 		    data: parm,
-		    //contentType: "text/xml",
-		    //contentType: "application/json; charset=utf-8",
 		    contentType: "application/x-www-form-urlencoded; charset=utf-8",
 		    dataType : 'json',
 		    success: function (data) {
@@ -52,8 +50,6 @@
 			type: "post",
 		    url: contextPath+"/scheme.do?method=updateSchemes",
 		    data: parm1,
-		    //contentType: "text/xml",
-		    //contentType: "application/json; charset=utf-8",
 		    contentType: "application/x-www-form-urlencoded; charset=utf-8",
 		    dataType : 'json',
 		    success: function (data) {
@@ -73,8 +69,6 @@
 				type: "post",
 			    url: contextPath+"/scheme.do?method=findSchemes",
 			    data: parm3,
-			    //contentType: "text/xml",
-			    //contentType: "application/json; charset=utf-8",
 			    contentType: "application/x-www-form-urlencoded; charset=utf-8",
 			    dataType : 'json',
 			    success: function (data) {
@@ -84,6 +78,24 @@
 			    }
 			});
 		};
+		
+	var parm4 ={
+			tid:"1"
+	}	
+	function findTotalInvestment(){
+		$.ajax({ 
+			type: "post",
+		    url: contextPath+"/totalinvestment.do?method=findTotalInvestment",
+		    data: parm4,
+		    contentType: "application/x-www-form-urlencoded; charset=utf-8",
+		    dataType : 'json',
+		    success: function (data) {
+		    	console.log(data)
+		    },
+		    error: function () {
+		    }
+		});
+	};
 	</script>
 </head>
 <body>
@@ -92,6 +104,8 @@
 <input type="button" value="修改方案" onclick="updateSchemes()"/>
 <br>
 <input type="button" value="查询方案" onclick="findSchemes()"/>
+<br>
+<input type="button" value="查询总投资" onclick="findTotalInvestment()"/>
 <h2>Hello World!</h2>
 </body>
 </html>
