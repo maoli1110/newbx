@@ -21,7 +21,6 @@ angular.module('home').controller('incomeCtrl', ['$scope', 'Home', '$http','All'
 
 	    $scope.$watch('cycle.value', function(val) {
 	      $scope.cycleCount = new Array(val);
-			console.log($scope.dif);
 			if ($scope.incomeList.length) {
 				var arr = [];
 				for (var i = 0; i < $scope.cycle.value - ($scope.incomeList[0].cellXValues.length - 3); i++) {
@@ -32,7 +31,7 @@ angular.module('home').controller('incomeCtrl', ['$scope', 'Home', '$http','All'
 				}
 				console.log(arr);
 				_.forEach($scope.incomeList,function (r) {
-					console.log(r);
+					//console.log(r);
 					r.cellXValues = r.cellXValues.concat(arr);
 				})
 			}
@@ -45,7 +44,7 @@ angular.module('home').controller('incomeCtrl', ['$scope', 'Home', '$http','All'
 		});
 		
 
-		console.log($scope.diff);
+		//console.log($scope.diff);
 
 		$scope.changeDate = function(row, cell,index) {
 
@@ -59,7 +58,7 @@ angular.module('home').controller('incomeCtrl', ['$scope', 'Home', '$http','All'
 			//关联的值
 			var top0List = _.filter($scope.incomeList, function(r) {
 				return r.yn === 2 || r.yn ===4 || r.yn ===7 || r.yn === 8;
-			})
+			});
 
 			console.log(top0);
 
