@@ -22,18 +22,30 @@ angular.module('home').controller('incomeCtrl', ['$scope', 'Home', '$http','All'
 	    $scope.$watch('cycle.value', function(val) {
 	      $scope.cycleCount = new Array(val);
 			if ($scope.incomeList.length) {
-				var arr = [];
-				for (var i = 0; i < $scope.cycle.value - ($scope.incomeList[0].cellXValues.length - 3); i++) {
-					arr.push({
-						xn: $scope.incomeList[0].cellXValues.length + i,
-						xyvalue: 0
+				debugger;
+				if(($scope.incomeList[0].cellXValues.length - 3) > $scope.cycle.value){
+
+					var diff = ($scope.incomeList[0].cellXValues.length - 3) - $scope.cycle.value;
+					_.forEach($scope.incomeList, function(r){
+							r.cellXValues.splice($scope.cycle.value + 3);
 					});
+
+				}else{
+					var arr = [];
+					for (var i = 0; i < $scope.cycle.value - ($scope.incomeList[0].cellXValues.length - 3); i++) {
+						arr.push(_.cloneDeep({
+							xn: $scope.incomeList[0].cellXValues.length + i,
+							xyvalue: 0
+						}));
+					}
+					//console.log(arr);
+					_.forEach($scope.incomeList,function (r) {
+						//console.log(r);
+						r.cellXValues = r.cellXValues.concat(arr);
+					})
+					console.log($scope.incomeList);
 				}
-				console.log(arr);
-				_.forEach($scope.incomeList,function (r) {
-					//console.log(r);
-					r.cellXValues = r.cellXValues.concat(arr);
-				})
+				
 			}
 	    });
 
@@ -41,10 +53,24 @@ angular.module('home').controller('incomeCtrl', ['$scope', 'Home', '$http','All'
 			//console.log(data);
 			data.data.cellYValues.shift();
 			$scope.incomeList = data.data.cellYValues;
+
+			var arr1 = [];
+
+		    for (var i = 0; i < $scope.cycle.value + 1; i++) {
+				arr1.push({
+					xn: $scope.incomeList[0].cellXValues.length + i,
+					xyvalue: 0
+				});
+			}
+
+			//console.log(arr);
+			_.forEach($scope.incomeList,function (r) {
+				//console.log(r);
+				r.cellXValues = r.cellXValues.concat(arr1);
+			})
+
 		});
 		
-
-		//console.log($scope.diff);
 
 		$scope.changeDate = function(row, cell,index) {
 
@@ -67,6 +93,7 @@ angular.module('home').controller('incomeCtrl', ['$scope', 'Home', '$http','All'
 					return parseInt(v.xn) === verticalId;
 				})[0];
 				verticalLine.push(unit);
+				console.log(unit);
 			})
 
 			for(var i=0; i<verticalLine.length; i++) {
@@ -75,6 +102,8 @@ angular.module('home').controller('incomeCtrl', ['$scope', 'Home', '$http','All'
 			}
 			//赋值
 			top0.cellXValues[verticalId].xyvalue = topTotal;
+
+			console.log(topTotal);
 			
 			cell.xyvalue = parseFloat(cell.xyvalue);
 
