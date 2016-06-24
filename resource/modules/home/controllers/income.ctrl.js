@@ -22,7 +22,8 @@ angular.module('home').controller('incomeCtrl', ['$scope', 'Home', '$http','All'
 	    $scope.$watch('cycle.value', function(val) {
 	      $scope.cycleCount = new Array(val);
 			if ($scope.incomeList.length) {
-				debugger;
+				//debugger;
+				//年份减少
 				if(($scope.incomeList[0].cellXValues.length - 3) > $scope.cycle.value){
 
 					var diff = ($scope.incomeList[0].cellXValues.length - 3) - $scope.cycle.value;
@@ -31,6 +32,7 @@ angular.module('home').controller('incomeCtrl', ['$scope', 'Home', '$http','All'
 					});
 
 				}else{
+					//年份增加
 					var arr = [];
 					for (var i = 0; i < $scope.cycle.value - ($scope.incomeList[0].cellXValues.length - 3); i++) {
 						arr.push(_.cloneDeep({
@@ -38,9 +40,7 @@ angular.module('home').controller('incomeCtrl', ['$scope', 'Home', '$http','All'
 							xyvalue: 0
 						}));
 					}
-					//console.log(arr);
 					_.forEach($scope.incomeList,function (r) {
-						//console.log(r);
 						r.cellXValues = r.cellXValues.concat(arr);
 					})
 					console.log($scope.incomeList);
@@ -72,49 +72,49 @@ angular.module('home').controller('incomeCtrl', ['$scope', 'Home', '$http','All'
 		});
 		
 
-		$scope.changeDate = function(row, cell,index) {
+		// $scope.changeDate = function(row, cell,index) {
 
-			var verticalId = index,
-				verticalLine = [],
-				topTotal = 0;
-			//取第一行的值
-			var top0 = _.filter($scope.incomeList, function(r) {
-				return r.yn === 1;
-			})[0];
-			//关联的值
-			var top0List = _.filter($scope.incomeList, function(r) {
-				return r.yn === 2 || r.yn ===4 || r.yn ===7 || r.yn === 8;
-			});
+		// 	var verticalId = index,
+		// 		verticalLine = [],
+		// 		topTotal = 0;
+		// 	//取第一行的值
+		// 	var top0 = _.filter($scope.incomeList, function(r) {
+		// 		return r.yn === 1;
+		// 	})[0];
+		// 	//关联的值
+		// 	var top0List = _.filter($scope.incomeList, function(r) {
+		// 		return r.yn === 2 || r.yn ===4 || r.yn ===7 || r.yn === 8;
+		// 	});
 
-			console.log(top0);
+		// 	console.log(top0);
 
-			 _.forEach(top0List, function (r) {
-				var unit = _.filter(r.cellXValues, function (v, i) {
-					return parseInt(v.xn) === verticalId;
-				})[0];
-				verticalLine.push(unit);
-				console.log(unit);
-			})
+		// 	 _.forEach(top0List, function (r) {
+		// 		var unit = _.filter(r.cellXValues, function (v, i) {
+		// 			return parseInt(v.xn) === verticalId;
+		// 		})[0];
+		// 		verticalLine.push(unit);
+		// 		console.log(unit);
+		// 	})
 
-			for(var i=0; i<verticalLine.length; i++) {
-				//loop & calculate
-				topTotal += parseFloat(verticalLine[i].xyvalue);
-			}
-			//赋值
-			top0.cellXValues[verticalId].xyvalue = topTotal;
+		// 	for(var i=0; i<verticalLine.length; i++) {
+		// 		//loop & calculate
+		// 		topTotal += parseFloat(verticalLine[i].xyvalue);
+		// 	}
+		// 	//赋值
+		// 	top0.cellXValues[verticalId].xyvalue = topTotal;
 
-			console.log(topTotal);
+		// 	console.log(topTotal);
 			
-			cell.xyvalue = parseFloat(cell.xyvalue);
+		// 	cell.xyvalue = parseFloat(cell.xyvalue);
 
-			//水平求和horizontal total calculate
-			_.last(row).xyvalue = 0;
-			for(var i=2; i<row.length-1; i++){
-				//console.log(row[i]);
-				//console.log(row[i].xyvalue);
-				_.last(row).xyvalue += parseFloat(row[i].xyvalue);
-			}
-		}
+		// 	//水平求和horizontal total calculate
+		// 	_.last(row).xyvalue = 0;
+		// 	for(var i=2; i<row.length-1; i++){
+		// 		//console.log(row[i]);
+		// 		//console.log(row[i].xyvalue);
+		// 		_.last(row).xyvalue += parseFloat(row[i].xyvalue);
+		// 	}
+		// }
 
 
 	}

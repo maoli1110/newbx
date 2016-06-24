@@ -59,7 +59,7 @@
 				<td style="width:10%">合计</td>
 			</tr>
 		<tbody>
-			<tr ng-repeat="row in incomeList">
+			<tr ng-repeat="row in incomeList track by $index">
 				<td name="{{cell.xn + '-' +row.yn}}" ng-repeat="cell in row.cellXValues track by $index">
 					<input type="text" ng-model="cell.xyvalue" ng-change="changeDate(row.cellXValues, cell, $index)">
 				</td>
