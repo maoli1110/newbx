@@ -11,30 +11,6 @@
                     {
                         "xn": 1,
                         "xyvalue": ""
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "2015"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "2016"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "2017"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "2018"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "2019"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "合计"
                     }
                 ],
                 "yn": 0
@@ -48,30 +24,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "总投资来源合计"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 1
@@ -85,30 +37,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "银行贷款"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 2
@@ -122,30 +50,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "其中:我行贷款"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 3
@@ -159,30 +63,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "企业自筹"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 4
@@ -196,30 +76,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "其中:自有资金"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 5
@@ -233,30 +89,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "股东长期借款"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 6
@@ -270,30 +102,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "预收租售收入滚动开发"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 7
@@ -307,30 +115,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "其它资金来源"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 8
@@ -344,30 +128,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "总投资来源合计"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 9
@@ -381,30 +141,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "土地费用"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 10
@@ -418,30 +154,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "其中：土地出让金"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 11
@@ -455,30 +167,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "征地费"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 12
@@ -492,30 +180,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "拆迁补偿费"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 13
@@ -529,30 +193,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "其它"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 14
@@ -566,30 +206,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "前期开发费用"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 15
@@ -603,30 +219,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "其中:勘测规划设计费"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 16
@@ -640,30 +232,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "可行性研究费"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 17
@@ -677,30 +245,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "三通一平费"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 18
@@ -714,30 +258,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "人防建设费"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 19
@@ -751,30 +271,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "其它"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 20
@@ -788,30 +284,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "建筑安装工程费"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 21
@@ -825,30 +297,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "其中:土建工程费"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 22
@@ -862,30 +310,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "设备购置及安装工程费"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 23
@@ -899,30 +323,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "装修工程费"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 24
@@ -936,30 +336,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "其它"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 25
@@ -973,30 +349,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "配套费用"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 26
@@ -1010,30 +362,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "其中:基础设施配套费"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 27
@@ -1047,30 +375,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "大市政配套费"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 28
@@ -1084,30 +388,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "维修基金"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 29
@@ -1121,30 +401,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "销售费用"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 30
@@ -1158,30 +414,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "管理费用"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 31
@@ -1195,30 +427,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "财务费用"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 32
@@ -1232,30 +440,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "不可预见费"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 33
@@ -1269,30 +453,6 @@
                     {
                         "xn": 1,
                         "xyvalue": "其它"
-                    },
-                    {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 7,
-                        "xyvalue": "0"
                     }
                 ],
                 "yn": 34
@@ -1301,31 +461,11 @@
                 "cellXValues": [
                     {
                         "xn": 0,
-                        "xyvalue": "项目开发成本"
-                    },
-                    {
-                        "xn": 1,
                         "xyvalue": ""
                     },
                     {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
+                        "xn": 1,
+                        "xyvalue": "项目开发成本"
                     }
                 ],
                 "yn": 35
@@ -1334,31 +474,11 @@
                 "cellXValues": [
                     {
                         "xn": 0,
-                        "xyvalue": "期间费用"
-                    },
-                    {
-                        "xn": 1,
                         "xyvalue": ""
                     },
                     {
-                        "xn": 2,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 3,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 4,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 5,
-                        "xyvalue": "0"
-                    },
-                    {
-                        "xn": 6,
-                        "xyvalue": "0"
+                        "xn": 1,
+                        "xyvalue": "期间费用"
                     }
                 ],
                 "yn": 36
