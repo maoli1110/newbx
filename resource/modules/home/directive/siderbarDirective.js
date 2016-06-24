@@ -1,4 +1,4 @@
-angular.module('home').directive('siderDirective', function() {
+angular.module('core').directive('siderDirective', function() {
 		return {
 			restrict: 'A',
 			link: function(scope, element, attr) {

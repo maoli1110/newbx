@@ -57,10 +57,10 @@ angular.module('home').controller('incomeCtrl', ['$scope', 'Home', '$http','All'
 			var arr1 = [];
 
 		    for (var i = 0; i < $scope.cycle.value + 1; i++) {
-				arr1.push({
+				arr1.push(_.cloneDeep({
 					xn: $scope.incomeList[0].cellXValues.length + i,
 					xyvalue: 0
-				});
+				}));
 			}
 
 			//console.log(arr);
