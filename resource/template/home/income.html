@@ -51,10 +51,10 @@
 				<th style="width:5%">序号</th>
 				<th style="width:20%"></th>
 				<th style="width:10%" ng-repeat="i in cycleCount track by $index">
-				<select ng-if="$first" ng-options="y for y in year.list" ng-model="year.init"></select>
-				<span  ng-if="!$first">
-					{{ year.init + $index }}
-				</span>
+					<select ng-if="$first" ng-options="y for y in year.list" ng-model="year.init"></select>
+					<span  ng-if="!$first">
+						{{ year.init + $index }}
+					</span>
 				</th>
 				<td style="width:10%">合计</td>
 			</tr>
