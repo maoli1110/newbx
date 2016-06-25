@@ -28,6 +28,13 @@
 				<td>4747907.39</td>
 				<td>9095.60</td>
 			</tr>
+			<tr ng-repeat="row in partLsit">
+				<td ng-if="!row.type">{{$index + 2}}</td>
+				<td ng-if="row.type"></td>
+				<td>{{row.ltname}}</td>
+				<td>{{row.value | setDecimal:2}}</td>
+				<td>{{row.avgprice | setDecimal:2}}</td>
+			</tr>
 		</tbody>
 	</table>
 </div>
