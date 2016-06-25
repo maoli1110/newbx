@@ -32,13 +32,13 @@ angular.module('home').controller('homeCtrl', ['$rootScope','$scope', 'Home', '$
     });
 
     var x = 0;
-//    $http.get('../data.json').success(function(data) {
-//      for (var i = 0; i < data.length; i++) {
-//        flatten(data[i], null, $scope.resultList);
-//      }
-//      console.log($scope.resultList); // 最终循环数组
-//      originalData.resultList = _.cloneDeep($scope.resultList);
-//    });
+   $http.get('../data.json').success(function(data) {
+     for (var i = 0; i < data.length; i++) {
+       flatten(data[i], null, $scope.resultList);
+     }
+     console.log($scope.resultList); // 最终循环数组
+     originalData.resultList = _.cloneDeep($scope.resultList);
+   });
 
     $scope.sum = function(array) {
       return _.sum(array);

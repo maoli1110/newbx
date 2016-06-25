@@ -26,7 +26,8 @@
                         "xyvalue": "总投资来源合计"
                     }
                 ],
-                "yn": 1
+                "yn": 1,
+                "level":0
             },
             {
                 "cellXValues": [
@@ -130,7 +131,8 @@
                         "xyvalue": "总投资来源合计"
                     }
                 ],
-                "yn": 9
+                "yn": 9,
+                "level":0
             },
             {
                 "cellXValues": [
