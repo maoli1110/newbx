@@ -1,0 +1,18 @@
+.icon-top{
+	background:url('img/icons/top.gif') no-repeat;
+}
+.icon-bottom{
+	background:url('img/icons/bottom.gif') no-repeat;
+}
+.icon-left{
+	background:url('img/icons/left.gif') no-repeat;
+}
+.icon-right{
+	background:url('img/icons/right.gif') no-repeat;
+}
+.icon-delete{
+	background:url('img/icons/delete.gif') no-repeat;
+}
+.icon-edit{
+	background:url('img/icons/edit.gif') no-repeat;
+}

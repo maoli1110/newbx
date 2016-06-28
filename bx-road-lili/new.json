@@ -1,0 +1,498 @@
+{
+    "success": true,
+    "data": {
+        "cellYValues": [
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": "序号"
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": ""
+                    }
+                ],
+                "yn": 0
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": "一"
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "总投资来源合计"
+                    }
+                ],
+                "yn": 1,
+                "level":0
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": "1"
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "银行贷款"
+                    }
+                ],
+                "yn": 2
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": ""
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "其中:我行贷款"
+                    }
+                ],
+                "yn": 3
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": "2"
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "企业自筹"
+                    }
+                ],
+                "yn": 4
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": ""
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "其中:自有资金"
+                    }
+                ],
+                "yn": 5
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": ""
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "股东长期借款"
+                    }
+                ],
+                "yn": 6
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": "3"
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "预收租售收入滚动开发"
+                    }
+                ],
+                "yn": 7
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": "4"
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "其它资金来源"
+                    }
+                ],
+                "yn": 8
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": "二"
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "总投资来源合计"
+                    }
+                ],
+                "yn": 9,
+                "level":0
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": "1"
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "土地费用"
+                    }
+                ],
+                "yn": 10
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": ""
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "其中：土地出让金"
+                    }
+                ],
+                "yn": 11
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": ""
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "征地费"
+                    }
+                ],
+                "yn": 12
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": ""
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "拆迁补偿费"
+                    }
+                ],
+                "yn": 13
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": ""
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "其它"
+                    }
+                ],
+                "yn": 14
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": "2"
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "前期开发费用"
+                    }
+                ],
+                "yn": 15
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": ""
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "其中:勘测规划设计费"
+                    }
+                ],
+                "yn": 16
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": ""
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "可行性研究费"
+                    }
+                ],
+                "yn": 17
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": ""
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "三通一平费"
+                    }
+                ],
+                "yn": 18
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": ""
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "人防建设费"
+                    }
+                ],
+                "yn": 19
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": ""
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "其它"
+                    }
+                ],
+                "yn": 20
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": "3"
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "建筑安装工程费"
+                    }
+                ],
+                "yn": 21
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": ""
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "其中:土建工程费"
+                    }
+                ],
+                "yn": 22
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": ""
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "设备购置及安装工程费"
+                    }
+                ],
+                "yn": 23
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": ""
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "装修工程费"
+                    }
+                ],
+                "yn": 24
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": ""
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "其它"
+                    }
+                ],
+                "yn": 25
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": "4"
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "配套费用"
+                    }
+                ],
+                "yn": 26
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": ""
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "其中:基础设施配套费"
+                    }
+                ],
+                "yn": 27
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": ""
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "大市政配套费"
+                    }
+                ],
+                "yn": 28
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": "5"
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "维修基金"
+                    }
+                ],
+                "yn": 29
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": "6"
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "销售费用"
+                    }
+                ],
+                "yn": 30
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": "7"
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "管理费用"
+                    }
+                ],
+                "yn": 31
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": "8"
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "财务费用"
+                    }
+                ],
+                "yn": 32
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": "9"
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "不可预见费"
+                    }
+                ],
+                "yn": 33
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": "10"
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "其它"
+                    }
+                ],
+                "yn": 34
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": ""
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "项目开发成本"
+                    }
+                ],
+                "yn": 35
+            },
+            {
+                "cellXValues": [
+                    {
+                        "xn": 0,
+                        "xyvalue": ""
+                    },
+                    {
+                        "xn": 1,
+                        "xyvalue": "期间费用"
+                    }
+                ],
+                "yn": 36
+            }
+        ],
+        "rsTempAttr": {
+            "id": "",
+            "tn": "总投资来源支出预测",
+            "sid": "",
+            "cyle": 5,
+            "tid": "1",
+            "staryear": 2015
+        }
+    }
+}

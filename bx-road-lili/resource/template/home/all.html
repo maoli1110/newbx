@@ -1,0 +1,77 @@
+<style type="text/css">
+	input{
+		width: 100%;
+		height: 27px;
+		line-height: 27px;
+		display: block;
+	}
+	table {
+	    table-layout: fixed;
+	    word-wrap: break-word;
+	}
+	.grey{
+		background: #EBEBEB;
+	}
+	.table-title{
+		margin-top: 20px;
+		font-size: 20px;
+		text-align: center;
+	}
+	.table td {
+		padding: 0px;
+	}
+	.table span {
+		width: 100%;
+		height: 100%;
+		display:block;
+	}
+	.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+		padding: 0px;
+		line-height: 2.4;
+		vertical-align: top;
+		border-top: 1px solid #ddd;
+	}
+	.bold{
+		font-weight: bold;
+	}
+	.indient{
+		text-indent: 2em;
+	}
+	
+</style>
+<div class="table-title">分部分项造价指标表</div>
+<hr/>
+<div class="table-reponsive">
+	<table class="table table-bordered">
+		<!-- <caption>基本的表格布局</caption> -->
+		<tbody>
+			<tr class="bold bg-gray">
+				<th style="width:5%">序号</th>
+				<th style="width:20%"></th>
+				<th style="width:10%" ng-repeat="i in cycleCount track by $index">
+				<select ng-if="$first" ng-options="y for y in year.list" ng-model="year.init"></select>
+				<span  ng-if="!$first">
+					{{ year.init + $index }}
+				</span>
+				</th>
+				<td style="width:10%" style="width:10%">合计</td>
+			</tr>
+			<tr ng-repeat="row in resultList">
+				<td ng-repeat="field in row">
+					<span ng-if="field.canedit != 1" id="{{field.fieldxyid}}" ng-class="{true: 'grey'}[field.bk == 1]" class="{{field.styley}} {{field.indient}}">{{field.fieldval}}</span>
+					<input type＝"number" ng-if="field.canedit == 1" ng-model="field.fieldval" ng-change="changeData(row, field)" ng-disabled="field.canedit == 0" >
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<!-- 图表分析 -->
+  <div class="chart">
+  	<ul>
+  		<li><a href="" title="预览"></a></li>
+  		<li><a href="" title="保存"></a></li>
+  		<li><a href="" title="对比"></a></li>
+  		<li><a ui-sref="tree" title="返回首页"></a></li>
+  	</ul>
+  </div>
+<!-- 图表分析end -->

@@ -1,0 +1,51 @@
+<style>
+	table {
+	    table-layout: fixed;
+	    word-wrap: break-word;
+	}
+	.table-title{
+		margin-top: 20px;
+		font-size: 20px;
+		text-align: center;
+	}
+</style>
+<!-- 分部分项造价指标表 -->
+
+<div class="table-title">分部分项造价指标表</div>
+<hr/>
+<div class="table-responsive">
+	<table class="table table-bordered">
+		<thead>
+			<th style="width:10%">序号</th>
+			<th>项目名称</th>
+			<th>总价</th>
+			<th>平方米造价</th>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>建筑装饰工程</td>
+				<td>4747907.39</td>
+				<td>9095.60</td>
+			</tr>
+			<tr ng-repeat="row in partLsit">
+				<td ng-if="!row.type">{{$index + 2}}</td>
+				<td ng-if="row.type"></td>
+				<td>{{row.ltname}}</td>
+				<td>{{row.value | setDecimal:2}}</td>
+				<td>{{row.avgprice | setDecimal:2}}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<!-- 图表分析 -->
+  <div class="chart">
+  	<ul>
+  		<li><a href="" title="图表分析"></a></li>
+  		<li><a href="" title="保存"></a></li>
+  		<li><a href="" title="对比"></a></li>
+  		<li><a ui-sref="tree" title="返回首页"></a></li>
+  	</ul>
+  </div>
+<!-- 图表分析end -->

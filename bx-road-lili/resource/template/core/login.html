@@ -1,0 +1,88 @@
+<div class="login">
+    <div class="header">
+    <div class="container">
+       <div>
+        <div class="table-cell">
+            <a href="" id="logo" tabindex="-1">
+                <h1><img src="resource/img/logo.png" alt="鲁班咨询" style="width:172px;" ></h1>
+            </a>
+        </div>
+        <div class="table-cell text-right title">
+            <h3>总包方PPP整体解决方案专家</h3>
+        </div>
+        </div>
+        </div>
+    </div>
+    <div class="login-body">
+      <div class="container">
+        <div class="login-form" loginform-directive>
+            <span class="welcome">欢迎您登录</span>
+            <ul id="formul">
+                <li style="margin-right:70px;">
+                    <form action="javascript:;" class="form-horizontal">
+                        <div class="form-group" id="name-form">
+                            <div class="col-sm-10">
+                              <input type="text" title="用户名" class="form-control" id="user" placeholder="用户名" ng-model="user.name" tabindex="1" autofocus>
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="" tabindex="-1">立即注册</a>
+                            </div>
+                        </div>
+                        <div class="form-group" id="pass-form">
+                            <div class="col-sm-10">
+                              <input type="password" title="密码" class="form-control" id="pass" placeholder="输入您的密码" ng-model="user.password" tabindex="2">
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="" tabindex="-1">忘记密码</a>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                           <div id="error-message" class="col-sm-10">
+                               
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-10">
+                              <button type="button" id="btn-login" class="btn btn-primary form-control" ng-click="login()" tabindex="-1">登录</button>
+                            </div>
+                        </div>
+                        <div class="form-group" style="margin-top:-10px;">
+                        <div class="col-sm-10">
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox">记住密码
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                </li>
+                <li>
+                     <form action="javascript:;" class="form-horizontal" style="margin-top:60px;" id="company">
+                         <a href="javascript:;" id="back" tabindex="-1"><img src="resource/img/back.png" alt=""></a>
+                         <div class="form-group">
+                            <div class="col-sm-10">
+                             <select class="form-control" id="companySelect" tabindex="-1" >
+                                 
+                            </select>
+                            <i class="ico-company"></i>
+                            </div>
+                         </div>
+                         <div class="form-group" style="margin-top:30px;">
+                            <div class="col-sm-10">
+                              <button type="button" id="btn-company" class="btn btn-primary form-control" ng-click="checkCompany()" tabindex="-1">确定</button>
+                            </div>
+                        </div>
+                     </form>
+                </li>
+            </ul>
+            
+        </div>
+     </div>
+    </div>
+    <div class="address text-center affix" style="left:0;bottom:20px;width:100%;">
+        <span >地址：上海市杨浦区五角场淞沪路433号创智天地(西区)6号楼3楼(靠近政学路口)</span>
+        <span>E-mail:bd@banshi.com.cn</span>
+        <span>沪ICP备09024855</span>
+    </div>
+</div>

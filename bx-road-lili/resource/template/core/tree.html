@@ -1,0 +1,113 @@
+<style type="text/css">
+	.tree{
+	    height: 500px;
+		height: calc(100vh - 380px);
+		margin-right: 10px;
+		overflow-y: auto;
+	}
+	
+	.mt-20{
+        margin-top: 150px!important;
+    	margin-bottom: 45px;
+	}
+	.title div{
+		font-size: 16px;
+	}
+	.rightBtn{
+	    position: fixed;
+	    right: 20px;
+	    top: 360px;
+	}
+	.rightBtn ul>li {
+	    margin: 0;
+	    padding: 0;
+	    height: 72px;
+	    margin-bottom: 4px;
+	    list-style-type:none;
+	}
+	.rightBtn .li1>a {
+	    display: inline-block;
+	    width: 72px;
+	    height: 72px;
+	    margin-bottom: 3px;
+	    background: url(resource/img/newchar.png) center center no-repeat;
+	    background-color: #9de38d;
+	}
+	.rightBtn .li2>a {
+	    display: inline-block;
+	    width: 72px;
+	    height: 72px;
+	    margin-bottom: 3px;
+	    background: url(resource/img/tree_icon2.png) center center no-repeat;
+	    background-color: #6fb2de;
+	}
+	.rightBtn li>a:hover{
+	    background-color: #737373;
+	}
+	.rightBtn li>a:active{
+	    background-color: #454546;
+	}
+	.proList div {
+		height:40px;
+		line-height:40px;
+		margin-top: 10px;
+	}
+	.proList >div:hover {
+		background: #eaf9ff;
+	}
+	.proList >div >span {
+		margin-left: 10px;
+	}
+	.proList input, .proList span {
+		height: 40px;
+		line-height: 40px;
+		vertical-align: middle;
+	}
+	.checked{
+		background: #eaf9ff;
+	}
+	.nochecked{
+		background: #f7f9fa;
+	}
+	.ml-10 {
+		margin-left: 10px;
+	}
+	.title .left{
+		margin-left: -17px; 
+	}
+	.title .right{
+		margin-left: -8px
+	}
+</style>
+<header ng-include="'resource/template/core/header.html'"></header>
+<!-- <div style="position:fixed;top:117px;width:100%;height:180px;background:url(resource/img/banner.png) left top/100% 100% no-repeat;left:0;z-index:11;"></div> -->
+<div class="container mt-20">
+	<div class="row title">
+		<div class="col-md-3">
+			<div class="left"><span class="glyphicon glyphicon-chevron-right"></span>工程列表</div>		
+		</div>
+		<div class="col-md-8">
+			<div class="right"><span class="glyphicon glyphicon-chevron-right"></span>方案列表</div>		
+		</div>
+	</div>
+	<div class="row" disinp-directive>
+	  <div id="tree" class="col-md-3 tree">
+	  		<ul id="tagtree" class="ztree" style="padding-left:0;margin-left: -8px;"></ul>
+	  </div>
+	  <div class="col-md-8 proList">
+	  	<div class="nochecked" ng-repeat="row in schemeList">
+	  	  <input type="checkbox" dis-inp-dir class="ml-10"><span class="ml-10">{{row.sn}}</span>
+	  	</div>
+	  </div>
+	</div>
+	
+</div>
+<footer ng-include="'resource/template/core/footer.html'"></footer>
+<!-- 图表分析 -->
+  <div class="rightBtn">
+  	<ul>
+  		<li class="li1"><a  href="javascript:;" ng-click="addSchemes()" title="新建方案"></a></li>
+  		<li class="li2"><a href="javascript:;" title="对比方案"></a></li>
+  	</ul>
+  </div>
+<!-- 图表分析end -->
